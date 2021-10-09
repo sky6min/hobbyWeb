@@ -2,7 +2,7 @@ package mrPang.hobbyWeb.core.service;
 
 public interface ApiService {
 
-    void getSummonerInfo();
+    void getSummonerInfo(String name);
 
     String setSummonerPid();
 
